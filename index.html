@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lottery Simulator</title>
+    <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="content">
         <h1 id="random-numbers">Random Numbers</h1>
-        <form>
+        <form id="lottery-form" class="form">
             <label for="balls">Picks: </label>
-            <input id="ball1" class="balls" type="number">
-            <input id="ball2" class="balls" type="number">
-            <input id="ball3" class="balls" type="number">
-            <input id="ball4" class="balls" type="number">
-            <input id="ball5" class="balls" type="number">
+            <input id="ball1" class="balls" type="number" requred>
+            <input id="ball2" class="balls" type="number" requred>
+            <input id="ball3" class="balls" type="number" requred>
+            <input id="ball4" class="balls" type="number" requred>
+            <input id="ball5" class="balls" type="number" requred>
             <input id="ball6" class="balls" type="number"><br>
-            <input type="submit" value="Play Lottery!" class="submit-button">
+            <input type="button" id="btn" value="Play Lottery!" class="submit-button" onclick="getUserTicket()">
         </form>
     </div>
     <script src="main.js"></script>
