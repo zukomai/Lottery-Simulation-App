@@ -1,0 +1,21 @@
+body {
+    background: rgb(247, 247, 247);
+}
+
+.user-label {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.content {
+    margin: 20vmin;
+    align-items: center;
+    text-align: center;
+}
+
+.submit-button {
+    padding: 1vmin 2vmin 1vmin 2vmin;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 3vmin;
+}
